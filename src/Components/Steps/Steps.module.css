@@ -1,0 +1,56 @@
+.steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .step {
+    text-align: center;
+    max-width: 250px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: white;
+    margin: 0 auto 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .step h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .step p {
+    color: #777;
+    font-size: 1em;
+  }
+  
+  .step:nth-child(1) .number {
+    background-color: #f15353; /* Red */
+  }
+  
+  .step:nth-child(2) .number {
+    background-color: #53c653; /* Green */
+  }
+  
+  .step:nth-child(3) .number {
+    background-color: #5353f1; /* Blue */
+  }
+  
+
+  
