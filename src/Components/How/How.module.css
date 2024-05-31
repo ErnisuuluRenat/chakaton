@@ -1,0 +1,20 @@
+.how {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #eaeaea;
+  }
+  
+.how h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .how p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
