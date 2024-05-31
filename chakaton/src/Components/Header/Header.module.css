@@ -1,4 +1,20 @@
-div {
-    font-size: 30px;
-    color: #000;
+
+.header {
+    background-color: var(--background-color);
+}
+
+.header__main {
+    padding: 42px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: var(--black-color);
+    font-weight: 700;
+    font-family: "Rubik";
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
 }

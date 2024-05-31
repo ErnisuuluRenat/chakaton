@@ -1,0 +1,24 @@
+.menu__list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu__list-link {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 173%;
+    cursor: pointer;
+}
+
+.menu__list-link--button {
+    padding: 15px 40px;
+    color: var(--white-color);
+    background-color: #F74D4D;
+    border-radius: 8px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}

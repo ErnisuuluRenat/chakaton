@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header/Header'
+import Main from './Components/Main/Main'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,9 +9,8 @@ function App() {
   return (
     <>
       <div className="wrapper">
-          <div className="container">
               <Header />
-          </div>
+              <Main />
       </div>
     </>
   )
